@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"	 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical" >
+
+     <TextView
+         android:id="@+id/lblDilutionSimple"
+         style="@style/LS2SectionHeading"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:text="@string/lblDilutionSimple" />
+     
+    <TextView
+        android:id="@+id/lblTargetStrength"
+        style="@style/LS2Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lblDilutionSimple"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/txtDilutionFactor"
+        android:text="@string/lblDiluteStrength" />
+
+    <EditText
+        android:id="@+id/txtTargetStrength"
+        style="@style/LS2Input"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/lblDilutionSimple"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@id/lblTargetStrength"
+        android:ems="9"
+        android:hint="@string/dilute_lbl_1_hint"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lblTargetVolume"
+        style="@style/LS2Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTargetStrength"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/txtTargetStrength"
+        android:text="@string/lblDiluteVolReq" />
+
+    <EditText
+        android:id="@+id/txtVolume"
+        style="@style/LS2Input"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtTargetStrength"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@id/lblTargetVolume"
+        android:ems="9"
+        android:hint="@string/dilute_lbl_2_hint"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lblDilutionSerial"
+        style="@style/LS2SectionHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtVolume"
+        android:layout_marginTop="20dp"
+        android:text="@string/lblDilutionSerial" />
+   
+    <TextView
+        android:id="@+id/lblDilutionSerialFactor"
+        style="@style/LS2Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblDilutionSerial"
+        android:layout_marginTop="5dp"
+        android:text="@string/lblDiluteFactor" />
+    
+    <EditText
+        android:id="@+id/txtDilutionFactor"
+        style="@style/LS2Input"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/lblDilutionSerial"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/lblDilutionSerialFactor"
+        android:ems="9"
+        android:hint="@string/dilutionDiluteFactorHint"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lblDilutionSourceVolume"
+        style="@style/LS2Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblDilutionSerialFactor"
+        android:layout_below="@+id/txtDilutionFactor"
+        android:layout_marginTop="5dp"
+        android:text="@string/lblDilutionSourceVolume" />
+    
+    <EditText
+        android:id="@+id/txtSourceVolume"
+        style="@style/LS2Input"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txtDilutionFactor"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/lblDilutionSourceVolume"
+        android:ems="9"
+        android:hint="@string/dilutionSourceVolumeHint"
+        android:inputType="numberDecimal" />
+    
+     <Button
+         android:id="@+id/btnDilutionCalc"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@id/txtSourceVolume"
+         android:clickable="true"
+         android:onClick="calculate"
+         android:text="@string/btn_calc" />
+    
+     <TextView
+         android:id="@+id/txtAnswer"
+         style="@style/LS2Answer"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/btnDilutionCalc"
+         android:layout_gravity="center_horizontal"
+         android:gravity="center_horizontal"
+         android:text=""
+         android:textAppearance="@style/LS2Answer" />
+     
+</RelativeLayout>
+
+</ScrollView>

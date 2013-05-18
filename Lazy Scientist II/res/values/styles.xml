@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="LS2Label" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="LS2SectionHeading" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="LS2Input" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>       
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+        
+    <style name="LS2AboutText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="LS2Answer" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="LS2AnswerSmaller" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    
+</resources>

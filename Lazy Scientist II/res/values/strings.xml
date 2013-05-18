@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lazy Scientist II</string>    
+    <string name="btn_calc">Calculate</string>
+    <string name="dilute_lbl_1_hint">%</string>
+    <string name="dilute_lbl_2_hint">ml</string>
+    <string name="conversions_lbl_ratiotopercentage">Ratio &gt; Percentage</string>
+    <string name="colon">:</string>
+    <string name="conversions_lbl_percentagetoratio">Percentage &gt; Ratio</string>
+    <string name="percent">%</string>
+    <string name="lblDilutionSimple">Simple</string>
+    <string name="lblDilutionSerial">Serial</string>
+    <string name="lblDiluteFactor">Dilution Factor: 10<sup>-</sup></string>
+    <string name="dilutionDiluteFactorHint"></string>
+    <string name="lblDilutionSourceVolume">Source Volume: </string>
+    <string name="dilutionSourceVolumeHint">&#956;l</string>
+    <string name="lblDiluteStrength">Target Strength: </string>
+    <string name="lblDiluteVolReq">Total Vol. Required: </string>
+    <string name="txtAboutText"><b>Lazy Scientist II</b>\n\nThis application was developed 
+        by the Dundee iGem 2012 team to encompass useful tools and utilities for those 
+        working in biological sciences, particularly synthetic biology. The program was 
+        written by Christopher Walker.        
+        \n\nTo learn more about our project, please visit our online resources at the following addresses:
+        \n\nhttp://dundeeigem.blogspot.co.uk
+        \nhttp://2012.igem.org/Team:Dundee
+        \n\nNote: The OD660 calculator is based on a MATLAB analysis 
+        of a set of data points produced within a laboratory 
+        environment. For accurate values, in-situ data should 
+        be produced with properly calibrated equipment.
+        \n\nMy warm thanks to Johnny Weightman for providing the OD600 
+        and dilution equations, and helping me wrap my head around them! 
+        \n\n(This software is licensed under the GNU GPL 3 license, and you are welcome 
+        to modify and distribute the program provided the terms of the license are adhered to.)
+        \n\nAny comments and ideas are welcomed, please email them to the author at \'kippy76@hotmail.co.uk\'.
+        </string>
+    <string name="lblConversionsRatio">Ratio Conversion</string>
+    <string name="lblConversionsOD">OD660 to Cell Count</string>
+    <string name="lblOD">OD660 Value</string>
+
+</resources>
