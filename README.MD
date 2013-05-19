@@ -1,5 +1,5 @@
-Lazy Scientist II
-Android Application
+##Lazy Scientist II
+#Android Application
 
 The Dundee iGEM team of 2011 created an Android application named the Lazy Scientist, and during the 2012 project, I chose to follow up the application with a suite of useful tools for biology students. The main goal was to provide some useful applications and to provide access to the source code to enable developers to add, modify and change the application to suit their needs. The app is free to download, and the full source code is provided.
 Screenshot animation of Lazy Scientist II The application currently contains the following tools:
@@ -16,6 +16,6 @@ http://2012.igem.org/Team:Dundee/Software
 
 As usual, I have released the source and compiled binaries under the GPL GNU version 3 license, please respect it.
 
-Chris Walker.
-cwalker.me.uk
-chris@cwalker.me.uk
+#Chris Walker.
+#cwalker.me.uk
+#chris@cwalker.me.uk
